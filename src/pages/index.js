@@ -20,7 +20,7 @@ import {graphql} from 'gatsby';
 
 const test3 = (props, {text123}) => (
   <Layout>
-        <SEO title="Offices in Brunswick, Georgia"/>
+        <SEO title="New Construction | Remodels | Hotels"/>
         <section className="page-section">
 
         <BackgroundImage
