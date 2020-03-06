@@ -1,10 +1,10 @@
 module.exports = {
   pathPrefix: `/gatsby-creative`,
   siteMetadata: {
-    title: `Work the Wick`,
-    description: `The Wick is a shared work space that offers tenants the privacy of individual office spaces with the amenities of larger office buildings. `,
-    author: `The Wick`,
-    siteUrl: `https://workthewick.com`,
+    title: `WaveCrest Enterprises, Inc.`,
+    description: `WaveCrest is a general contracting firm that specializes in custom single and multifamily residential in first-class resort construction throughout San Diego County‘s ranch and coastal regions.`,
+    author: `WaveCrest Enterprises, Inc.`,
+    siteUrl: `https://wavecrestinc.com`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

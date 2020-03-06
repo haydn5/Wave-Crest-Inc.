@@ -10,7 +10,7 @@ import PropTypes from "prop-types"
 import Header from "./header"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "../css/custom.css"
-import { Container, Button } from "react-bootstrap";
+import { Container, Col, Row } from "react-bootstrap";
 
 const getScrollNode = (element) => {
   return element.ownerDocument.scrollingElement || element.ownerDocument.documentElement
@@ -62,15 +62,29 @@ export default class Layout extends React.Component {
         id="page-top">
         <Header/>
         <main>{this.props.children}</main>
-        <div className="orange-bar mt-3"></div>
         <footer>
-          <Container className="text-center">
-                <h2>Your new office awaits.</h2>
-                <Button href="/schedule-a-tour" variant="light">Schedule a Tour</Button>
-              
-          </Container>
           <Container>
-          <p className="text-center">©{(new Date().getFullYear())} Work The Wick | Site designed by <a href="https://www.nautilusdesigns.com">Nautilus Designs</a></p>
+            <Row>
+              <Col lg={3}>
+                <h2>Address</h2>
+                <p>829 Second Street Ste. A<br />
+                    Encinitas, CA 92024</p>
+              </Col>
+              <Col lg={3}>
+                <h2>Contact</h2>
+                <p><a href="mailto:info@wavecrestinc.com">info@wavecrestinc.com</a><br />(760)753-2440</p>
+              </Col>
+              <Col lg={3}>
+                <h2>License</h2>
+                <p>CSLB #732912</p>
+              </Col>
+              <Col lg={3}>
+                <h2>Copyright</h2>
+                <p>©{(new Date().getFullYear())} WaveCrest Enterprises, Inc.<br />Site designed by <a href="https://www.nautilusdesigns.com">Nautilus Designs</a></p>
+              </Col>
+              
+
+            </Row>
           </Container>
         </footer>
       </div>

@@ -1,10 +1,10 @@
 import React from "react"
 
-import { Navbar, Nav, NavDropdown } from "react-bootstrap"
+import { Container, Navbar, Nav } from "react-bootstrap"
 import Scroller from './scroller'
 import { Link } from 'gatsby'
 
-import logo from "../images/work-the-wick-logo.svg"
+import logo from "../images/wave-crest-logo-smaller.jpg"
 
 export default class Header extends React.Component {
   constructor(props) {
@@ -15,35 +15,28 @@ export default class Header extends React.Component {
   render() {
     return (
       <>
-      <div className="orange-bar"></div>
-      <div className="container">
+      <Container>
         <Navbar className="navbar  navbar-expand-md" id="mainNav" expand="xl"
                 collapseOnSelect={true}>
           
             <Link className="navbar-brand">
-              <img src={logo} alt={'The Wick'} className="imgFullCol" width="200" />
+              <img src={logo} alt={'The Wick'} className="imgFullCol" width="250" />
             </Link>
             <Navbar.Toggle aria-controls="navbarResponsive"/>
             <Navbar.Collapse id="navbarResponsive">
-              <Nav className="navbar-nav text-center ml-auto" >
-              <ul className="navbar-nav  text-center">
+              <Nav className="navbar-nav" >
+              <ul className="navbar-nav">
+                <li><Link to="/about" className="nav-link" activeClassName="active">About</Link></li>
             
-              
-              <NavDropdown title="Offices" id="basic-nav-dropdown">
-                <NavDropdown.Item href="/the-wick/">The Wick</NavDropdown.Item>
-                <NavDropdown.Item href="/the-wick-2/">The Wick 2.0</NavDropdown.Item>
-                <NavDropdown.Item href="/the-wick-3/">The Wick 3.0</NavDropdown.Item>
-              </NavDropdown>
-                <li><Link to="/amenities/" className="nav-link" activeClassName="active">Amenities</Link></li>
-            
-                <li><Link to="/neighborhood" className="nav-link" activeClassName="active">Neighborhood</Link></li>
-                <li><Link to="/schedule-a-tour/" className="nav-link" activeClassName="active">Schedule a Tour</Link></li>
+                <li><Link to="/projects" className="nav-link" activeClassName="active">Projects</Link></li>
+                <li><Link to="/testimonials" className="nav-link" activeClassName="active">Testimonials</Link></li>
+                <li><Link to="/contact" className="nav-link" activeClassName="active">Contact Us</Link></li>
               </ul>
               </Nav>
             </Navbar.Collapse>
           
         </Navbar>
-        </div>
+        </Container>
       </>
     );
   }

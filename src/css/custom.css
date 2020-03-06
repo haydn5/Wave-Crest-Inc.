@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i|Quicksand:300,400,700&display=swap');
+
 
 .navbar-nav .dropdown-menu {
     border: none;
@@ -36,8 +36,13 @@
 }
 
 .content-box {
-    max-width: 700px;
+    max-width: 800px;
     margin: 0px auto;
+}
+
+.content-box p {
+    color: white;
+    padding: 10px;
 }
 
 .masthead span {
@@ -70,9 +75,6 @@
 
 /* Font styles and padding */
 
-h1, h2, h3 {
-    font-family: 'Quicksand', sans-serif;
-}
 
 h3 {
     font-weight: 300;
@@ -100,18 +102,15 @@ h2.summary {
 }
 
 .container p {
-    font-family: 'Lato', sans-serif;
     color: rgb(110, 110, 110);
     line-height: 1.8em;
+    font-size: 1.05rem;
 }
 
 .container button {
-    font-family: 'Lato', sans-serif;
+
 }
 
-.container > p {
-    margin: 40px auto;
-}
 
 @media screen and (min-width: 670px) {
     .summary {
@@ -127,6 +126,28 @@ h2.summary {
     }
 }
 
+.singleCol {
+    max-width: 750px;
+}
+
+.testimonial {
+    font-size: 1.4em;
+    color: #d3d5da;
+}
+
+.testimonial p, .lightGray p {
+    color: white;
+    line-height: 1.3em;
+}
+
+.wcBGColor {
+    background-color: #69a297;
+    margin: 0 auto;
+}
+
+.maxWidth50 {
+    max-width: 250px;
+}
 
 
 /* End font styles and padding */
