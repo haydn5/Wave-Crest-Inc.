@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i|Quicksand:300,400,700&display=swap');
+
+.navbar-nav .dropdown-menu {
+    border: none;
+    text-align: center;
+}
+
+.masthead {
+    width: 100%;
+    height: 60vh;
+    /* min-height: 500px; */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+}
+
+.subhead {
+    width: 100%;
+    height: 30vh;
+    /* min-height: 500px; */
+    background-image: url('https://source.unsplash.com/BtbjCFUvBXs/1920x1080');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+}
+
+.black-overlay {
+    display: -webkit-flex; /* Safari */
+    display: flex;
+    background-color: rgba(0,0,0,0.4);
+    height: 100%;
+    align-items: center;   
+    text-align: center;
+}
+
+.content-box {
+    max-width: 700px;
+    margin: 0px auto;
+}
+
+.masthead span {
+    height: 100%;
+    display: block;
+}
+
+.masthead h1, .subhead h2 {
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0,0,0, .4);
+    padding: 10px;
+}
+
+.subhead h2 {
+    font-size: 3em;
+}
+
+
+/* Navigation  */
+
+.navbar-light .navbar-nav .nav-link {
+    
+}
+
+.nav-link.active {
+    color: #d02030;
+}
+
+/* End Navigation */
+
+/* Font styles and padding */
+
+h1, h2, h3 {
+    font-family: 'Quicksand', sans-serif;
+}
+
+h3 {
+    font-weight: 300;
+    font-size: 1.6em;
+}
+
+h2.summary {
+    margin: 40px auto;
+}
+
+/* h2.summary:after {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    width: 90px;
+    height: 3px;
+    background-color: #193b5a;
+    left: 0;
+    margin: 0 auto;
+    margin-bottom: 00px;
+} */
+
+.container p, .container h2 {
+    margin-top: 20px;
+}
+
+.container p {
+    font-family: 'Lato', sans-serif;
+    color: rgb(110, 110, 110);
+    line-height: 1.8em;
+}
+
+.container button {
+    font-family: 'Lato', sans-serif;
+}
+
+.container > p {
+    margin: 40px auto;
+}
+
+@media screen and (min-width: 670px) {
+    .summary {
+      max-width: 730px;  
+      text-align: center;
+    }
+    .masthead h1 {
+        font-size: 3rem;
+    }
+    .content-box {
+        max-width: 750px;
+        margin: 0px auto;
+    }
+}
+
+
+
+/* End font styles and padding */
+
+hr {
+    margin: 30px auto;
+}
+
+.orange-bar {
+    background-color: #e04826;
+    height: 6px;
+}
+
+/* Carousel */
+
+.carousel {
+    margin-bottom: 20px;
+}
+
+/* Media Query for Desktop */
+
+
+@media screen and (min-width: 990px) {
+    .paddingRight127 {
+        padding-right: 127px;
+    }
+
+    .fixed {
+        background-attachment: fixed;
+    }
+    
+}
+
+@media screen and (min-width: 680px) {
+    img.maxWidth200 {
+        max-width: 500px;
+    }
+}
+
+@media screen and (max-width: 481px) {
+    button.btn {
+        width: 100%;
+    }
+    .content-box {
+        padding: inherit;
+    }
+}
+
+footer {
+    background-color: #003455;
+    overflow: hidden;
+}
+
+footer .container p, footer h2 {
+    color: white;
+}
+
+footer .container a {
+    border-bottom: 1px dotted white;
+    color: white;
+}
+
+footer .container a.btn {
+    color: inherit;
+}
+
+footer .container a:hover {
+    text-decoration: none;
+    border-bottom: 1px solid white;
+}
