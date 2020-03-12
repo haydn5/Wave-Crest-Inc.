@@ -31,7 +31,7 @@ const amenities = (props) => (
         </BackgroundImage>
 
         <Container className="singleCol">
-          <p>We’ve crossed Enterprises Inc. has served as San Diego’s premier general contractor for over four decades. We are proud of our unique ability to convert clients’ dreams into beautiful realities and believe it is our responsibility as general contractor to act as the principal link between conception of every project and its ultimate expression. </p>
+          <p>WaveCrest Enterprises Inc. has served as San Diego’s premier general contractor for over four decades. We are proud of our unique ability to convert clients’ dreams into beautiful realities and believe it is our responsibility as general contractor to act as the principal link between conception of every project and its ultimate expression. </p>
           <p>The WaveCrest team is dedicated to ensuring the highest quality, utmost integrity, and best value for your project. We work with you, the architect, and all other key players from the planning and permitting stages through final construction to ensure a transparent and timely project. Or keen attention to detail, innovative problem-solving and solutions-oriented mindset will guarantee a project that exceeds your expectations.</p>
         </Container>
 
