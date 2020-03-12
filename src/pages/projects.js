@@ -20,87 +20,87 @@ const theWick = (props) => (
         </Container> 
         <Container>
           <Row>
-            <Col lg={6} md={6} xs={12}>
+            <Col lg={4} md={6} xs={12}>
               <Img fluid={props.data.wavecrestSenses.childImageSharp.fluid} alt="12 Senses" />
               <figcaption>12 Senses</figcaption>
             </Col>
-            <Col lg={6} md={6} xs={12}>
+            <Col lg={4} md={6} xs={12}>
               <Img fluid={props.data.wavecrestBella.childImageSharp.fluid} alt="Bellasario" />
               <figcaption>Bella</figcaption>
             </Col>
-            <Col lg={6} md={6} xs={12}>
+            <Col lg={4} md={6} xs={12}>
               <Img fluid={props.data.wavecrestBrinner.childImageSharp.fluid} alt="12 Senses" />
               <figcaption>Brinner</figcaption>
             </Col>
-            <Col lg={6} md={6} xs={12}>
+            <Col lg={4} md={6} xs={12}>
               <Img fluid={props.data.wavecrestCasa.childImageSharp.fluid} alt="12 Senses" />
               <figcaption>Casa</figcaption>
             </Col>
-            <Col lg={6} md={6} xs={12}>
+            <Col lg={4} md={6} xs={12}>
               <Img fluid={props.data.wavecrestCasaaguila.childImageSharp.fluid} alt="12 Senses" />
               <figcaption>Casa Aguila</figcaption>
             </Col>
-            <Col lg={6} md={6} xs={12}>
+            <Col lg={4} md={6} xs={12}>
               <Img fluid={props.data.wavecrestEnrico.childImageSharp.fluid} alt="12 Senses" />
               <figcaption>Enrico</figcaption>
             </Col>
-            <Col lg={6} md={6} xs={12}>
+            <Col lg={4} md={6} xs={12}>
               <Img fluid={props.data.wavecrestFinn.childImageSharp.fluid} alt="12 Senses" />
               <figcaption>Finn</figcaption>
             </Col>
-            <Col lg={6} md={6} xs={12}>
+            <Col lg={4} md={6} xs={12}>
               <Img fluid={props.data.wavecrestGreisman.childImageSharp.fluid} alt="12 Senses" />
               <figcaption>Greisman</figcaption>
             </Col>
-            <Col lg={6} md={6} xs={12}>
+            <Col lg={4} md={6} xs={12}>
               <Img fluid={props.data.wavecrestJaska.childImageSharp.fluid} alt="12 Senses" />
               <figcaption>Jaska</figcaption>
             </Col>
-            <Col lg={6} md={6} xs={12}>
+            <Col lg={4} md={6} xs={12}>
               <Img fluid={props.data.wavecrestMellowYellow.childImageSharp.fluid} alt="12 Senses" />
               <figcaption>Mellow Yellow</figcaption>
             </Col>
-            <Col lg={6} md={6} xs={12}>
+            <Col lg={4} md={6} xs={12}>
               <Img fluid={props.data.wavecrestMilligan.childImageSharp.fluid} alt="12 Senses" />
               <figcaption>Milligan</figcaption>
             </Col>
-            <Col lg={6} md={6} xs={12}>
+            <Col lg={4} md={6} xs={12}>
               <Img fluid={props.data.wavecrestNeptune.childImageSharp.fluid} alt="12 Senses" />
               <figcaption>Neptune</figcaption>
             </Col>
-            <Col lg={6} md={6} xs={12}>
+            <Col lg={4} md={6} xs={12}>
               <Img fluid={props.data.wavecrestNeuhaus.childImageSharp.fluid} alt="12 Senses" />
               <figcaption>Neuhaus</figcaption>
             </Col>
-            <Col lg={6} md={6} xs={12}>
+            <Col lg={4} md={6} xs={12}>
               <Img fluid={props.data.wavecrestPoole.childImageSharp.fluid} alt="12 Senses" />
               <figcaption>Poole</figcaption>
             </Col>
-            <Col lg={6} md={6} xs={12}>
+            <Col lg={4} md={6} xs={12}>
               <Img fluid={props.data.wavecrestResort.childImageSharp.fluid} alt="12 Senses" />
               <figcaption>WaveCrest Resort</figcaption>
             </Col>
-            <Col lg={6} md={6} xs={12}>
+            <Col lg={4} md={6} xs={12}>
               <Img fluid={props.data.wavecrestShed.childImageSharp.fluid} alt="12 Senses" />
               <figcaption>Shed</figcaption>
             </Col>
-            <Col lg={6} md={6} xs={12}>
+            <Col lg={4} md={6} xs={12}>
               <Img fluid={props.data.wavecrestStallione.childImageSharp.fluid} alt="Stallione" />
               <figcaption>Stallione</figcaption>
             </Col>
-            <Col lg={6} md={6} xs={12}>
+            <Col lg={4} md={6} xs={12}>
               <Img fluid={props.data.wavecrestSunder.childImageSharp.fluid} alt="Sunder" />
               <figcaption>Sunder</figcaption>
             </Col>
-            <Col lg={6} md={6} xs={12}>
+            <Col lg={4} md={6} xs={12}>
               <Img fluid={props.data.wavecrestTamarack.childImageSharp.fluid} alt="Tamarack" />
               <figcaption>Tamarack</figcaption>
             </Col>
-            <Col lg={6} md={6} xs={12}>
+            <Col lg={4} md={6} xs={12}>
               <Img fluid={props.data.wavecrestWalton.childImageSharp.fluid} alt="Walton" />
               <figcaption>Walton</figcaption>
             </Col>
-            <Col lg={6} md={6} xs={12}>
+            <Col lg={4} md={6} xs={12}>
               <Img fluid={props.data.wavecrestYuhl.childImageSharp.fluid} alt="Yuhl" />
               <figcaption>Yuhl</figcaption>
             </Col>

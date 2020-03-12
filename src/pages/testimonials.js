@@ -45,12 +45,14 @@ const amenities = (props) => (
           <p>Mike Paul<br />
           Homeowner
           </p>
+          <hr />
           <p>
           A couple of months ago I called Jeff about a leak in my new bathroom. His guys were at my house within 90 minutes, found the leak via the stucco wall of the balcony and solved the problem before it became a big problem. His stucco guy was also very prompt and professional. I appreciate WaveCrest standing behind their work and the prompt response.
           </p>
           <p>Marc Kramer <br />
           Homeowner
           </p>
+          <hr />
           <p>
           Jeff did SUCH a fine job and should be very proud. What a fantastic team of talented homebuilders. Wow!!
           </p>

@@ -30,13 +30,20 @@ const amenities = (props) => (
           </div>          
         </BackgroundImage>
 
+        <Container className="singleCol">
+          <p>We’ve crossed Enterprises Inc. has served as San Diego’s premier general contractor for over four decades. We are proud of our unique ability to convert clients’ dreams into beautiful realities and believe it is our responsibility as general contractor to act as the principal link between conception of every project and its ultimate expression. </p>
+          <p>The WaveCrest team is dedicated to ensuring the highest quality, utmost integrity, and best value for your project. We work with you, the architect, and all other key players from the planning and permitting stages through final construction to ensure a transparent and timely project. Or keen attention to detail, innovative problem-solving and solutions-oriented mindset will guarantee a project that exceeds your expectations.</p>
+        </Container>
+
         <Container>
+
+
           <Row>
             <Col lg={4}>
-              <Image src={jeffAdams} alt="Jeff Adams" fluid />
+              <p><Image src={jeffAdams} alt="Jeff Adams" fluid /></p>
             </Col>
             <Col lg={8}>
-            <h2>Jeff Adams, President</h2>
+            <h2>Jeff Adams<span className="notBoldSmaller">, President</span></h2>
           <p>Since 1972, Mr. Adams has overseen the construction of numerous residential projects, as well as three multimillion-dollar resorts. Regardless of the size of the project, Jeff has a meticulous eye detail. While his projects have been characterized by their creativity in quality, Mr. Adams, who has a degree in economics from University of California Santa Barbara, is extremely cost-conscious as well. He is very aware of the need to get the best possible product at the lowest possible cost.
             </p>
             <p>Mr. Adams has been honored with numerous prestigious awards for his projects, including:
@@ -54,10 +61,10 @@ const amenities = (props) => (
           <hr />
           <Row>
             <Col lg={4}>
-              <Image src={richW} alt="Rich Williams" fluid />
+              <p><Image src={richW} alt="Rich Williams" fluid /></p>
             </Col>
             <Col lg={8}>
-            <h2>Rich Williams</h2>
+            <h2>Rich Williams<span className="notBoldSmaller">, Vice President</span></h2>
           <p>
             Rich has been a leading builder in San Diego for decades. His expertise in building science and desire to continually learn allow him to build top quality homes that last more than a lifetime. His goal is to build homes that are not only healthy, safe places for your family but are also comfortable, beautiful, and durable. 
           </p>
@@ -75,7 +82,7 @@ const amenities = (props) => (
         </Container>
         <div className="wcBGColor p-5 lightGray">
             <Container className="singleCol">
-              <p>WaveCrest has a division dedicated specifically to environmentally-focused projects called Alliance Green Builders. AGB’s award winning projects include Passive House Certified, LEED Platinum, and GreenPoint Rated homes. They are the leaders of San Diego’s residential green building sector.</p>
+              <p>WaveCrest has a division dedicated specifically to environmentally-focused projects called <a href="https://www.alliancegreenbuilders.com">Alliance Green Builders</a>. AGB’s award winning projects include Passive House Certified, LEED Platinum, and GreenPoint Rated homes. They are the leaders of San Diego’s residential green building sector.</p>
             </Container>
         </div>
 
@@ -91,12 +98,12 @@ const amenities = (props) => (
           </h2>
           <p>The development of a building is determined by three crucial components: time, cost, and quality. Wave Crest Enterprises works closely in partnership with clients, balancing these three factors according to the individual nature of the project.</p>
           <p>
-            1) Time – Time is money. Attention to time constraints with suppliers, subcontractors, engineers, and architects ensures continuity at a cost-saving pace. Wave Crest is committed to hands-on supervision throughout the entire development process, providing the highest level of efficiency during every phase of the project. It is this level of competence that solves problems before they arise, saving valuable time and money.
+            <strong className="coloredType">1) Time </strong>– Time is money. Attention to time constraints with suppliers, subcontractors, engineers, and architects ensures continuity at a cost-saving pace. Wave Crest is committed to hands-on supervision throughout the entire development process, providing the highest level of efficiency during every phase of the project. It is this level of competence that solves problems before they arise, saving valuable time and money.
           </p>
           <p>
-            2) Cost – Wave Crest has over three decades of experience building projects around strict realistic budgets.  From a simple remodeling to a 5.4 million dollar resort complex, we are committed to keeping costs within pre-established limits, striving to achieve the greatest value per dollar invested without sacrificing precise attention to detail.
+          <strong className="coloredType">2) Cost </strong>– Wave Crest has over three decades of experience building projects around strict realistic budgets.  From a simple remodeling to a 5.4 million dollar resort complex, we are committed to keeping costs within pre-established limits, striving to achieve the greatest value per dollar invested without sacrificing precise attention to detail.
           </p>
-          <p>3) Quality – Quality and craftsmanship have always been hallmarks of our projects.  Wave Crest has a reputation for creating custom environments that are meticulously constructed.  On site supervision ensures fulfillment of our client’s exact specifications. Relentless pursuit of perfection and uncompromising quality is guaranteed, surpassing standards inside and out.</p>
+          <p><strong className="coloredType">3) Quality </strong>– Quality and craftsmanship have always been hallmarks of our projects.  Wave Crest has a reputation for creating custom environments that are meticulously constructed.  On site supervision ensures fulfillment of our client’s exact specifications. Relentless pursuit of perfection and uncompromising quality is guaranteed, surpassing standards inside and out.</p>
           </Col>
           </Row>
           </Container>

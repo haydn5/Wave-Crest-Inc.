@@ -6,7 +6,7 @@
  */
 
 import React from "react"
-import PropTypes from "prop-types"
+// import PropTypes from "prop-types"
 import Header from "./header"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "../css/custom.css"
@@ -65,24 +65,25 @@ export default class Layout extends React.Component {
         <footer>
           <Container>
             <Row>
-              <Col lg={3}>
+            <Col lg={1}></Col>
+              <Col lg={2}>
                 <h2>Address</h2>
                 <p>829 Second Street Ste. A<br />
                     Encinitas, CA 92024</p>
               </Col>
-              <Col lg={3}>
+              <Col lg={2}>
                 <h2>Contact</h2>
                 <p><a href="mailto:info@wavecrestinc.com">info@wavecrestinc.com</a><br />(760)753-2440</p>
               </Col>
-              <Col lg={3}>
+              <Col lg={2}>
                 <h2>License</h2>
                 <p>CSLB #732912</p>
               </Col>
-              <Col lg={3}>
+              <Col lg={4}>
                 <h2>Copyright</h2>
                 <p>©{(new Date().getFullYear())} WaveCrest Enterprises, Inc.<br />Site designed by <a href="https://www.nautilusdesigns.com">Nautilus Designs</a></p>
               </Col>
-              
+              <Col lg={1}></Col>
 
             </Row>
           </Container>
@@ -90,9 +91,4 @@ export default class Layout extends React.Component {
       </div>
     )
   }
-}
-
-Layout.propTypes = {
-  children: PropTypes.node.isRequired,
-  className: PropTypes.string,
 }
